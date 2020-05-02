@@ -1,0 +1,17 @@
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 12px;
+  border: 1px dotted gray;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.col {
+  padding: 2px 2px;
+  margin: 2px 2px;
+}
